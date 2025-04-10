@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Vipul123kumar/Food-Recipi.git/static/css/main.7b671ec6.css",
+    "main.js": "/Vipul123kumar/Food-Recipi.git/static/js/main.90c42be0.js",
+    "index.html": "/Vipul123kumar/Food-Recipi.git/index.html",
+    "main.7b671ec6.css.map": "/Vipul123kumar/Food-Recipi.git/static/css/main.7b671ec6.css.map",
+    "main.90c42be0.js.map": "/Vipul123kumar/Food-Recipi.git/static/js/main.90c42be0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b671ec6.css",
+    "static/js/main.90c42be0.js"
+  ]
+}
