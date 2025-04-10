@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+
+ import './App.css';
+// import Mainpage from './Component/Mainpage';
+import {Route,Routes } from 'react-router-dom';
+// import Mealinfo from './Component/Mealinfo';
+
+import Mainpage from './component/Mainpage';
+import Mealinfo from './component/Mealinfo';
+// import Recipe from './Recipe'; 
+function App() { 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+     
+    // <Mainpage/>
+     
+     <Routes>
+      <Route path='/' element={<Mainpage/>}/>
+      <Route path='/:mealid' element={<Mealinfo/>}/>
+     </Routes>
+     // <Mainpage/>
   );
 }
-
+ 
 export default App;
